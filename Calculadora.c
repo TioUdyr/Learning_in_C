@@ -1,18 +1,22 @@
 #include <stdio.h>
 int main(){
-
-    double n1, n2, operador;
+    float n1, n2, resultado;
+    char operacao;
 
     printf("Digite o primeiro numero: ");
-    scanf("%lf", &n1);
+    scanf("%f", &n1);
 
-    printf("Digite o segundo numero: ");
-    scanf("%lf", &n2);
+    printf("Digite o segundo: ");
+    scanf("%f", &n2);
 
-    printf("Digite o operador (+, -, *, /)");
-    scanf("%lf", &operador);
-    
-    if (operador == '+')
+    printf("Escolha um operador (+, -, *, /): \n");
+    scanf("%c", &operacao);
+
+    if(operacao == '+')
+   
+
+
+
 
     return 0;
 }
