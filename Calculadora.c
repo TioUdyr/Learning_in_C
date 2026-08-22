@@ -12,8 +12,24 @@ int main(){
     printf("Escolha um operador (+, -, *, /): \n");
     scanf("%c", &operacao);
 
-    if(operacao == '+')
-   
+    if(operacao == '+'){    
+        printf("A soma deu: ");
+    }
+    else if(operacao == '-'){
+        printf("A subtracao deu: ");
+    }
+    else if(operacao == '*'){
+        printf("A multplicacao deu: ");
+    }
+    else if(operacao == '/'){
+        if(n2 == 0){prinft("A divisao deu deu: ");}
+        else{
+            printf("Nao vai rolar divisao por 0");
+        }
+    }
+    else{
+        printf("Erro!");
+    }
 
 
 
