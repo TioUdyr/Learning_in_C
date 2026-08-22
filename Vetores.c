@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main(){
+    setlocale(LC_ALL,"Portuguese_Brazil");
+
+    int vet[5] = {0, 0, 0, 0, 0}; 
+    //printf("%d %d %d %d %d", vet[0], vet[1], vet[2], vet[3], vet[4]);
+    int i;
+
+    /*for(i = 0 ; i < 5; i++){
+        printf("%d ", vet[i]);
+    } //Estrutura de repetição em FOR (ele pega e vai repetindo até o item que eu desejei e de quanto em quanto ele vai pular)
+    */
+
+    for(i=0 ; i<5; i++){
+        printf("Insira o elemento da posição %d: ", i);
+        scanf("%d", &vet[i]);
+    }
+
+    for(i=0; i<5; i++){
+        printf("%d ", vet[i]);
+    }
+
+}
+
+//Vetor tamanho N vai ser 0 até N-1
+
+//vetores ser para armazenar coisas com o mesmo tipo mas cada um tem um indice para poder acessar (uma variavel simples com varias posições)
