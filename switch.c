@@ -6,13 +6,14 @@ int main(){
 
     switch (valor){
         case 1:
+        break;
+
+        case 2:
+        break;
+
+    default:
             
-
-
     }
-
-
-
 
     return 0;
 }
