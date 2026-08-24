@@ -30,9 +30,6 @@ int main(){
     else{
         printf("Erro!");
     }
-
-
-
-
+    
     return 0;
 }
