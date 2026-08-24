@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <locale.h>
+
 /*struct novo_tipo{
     int dado; //campos <
     float valor; //campos<
@@ -22,7 +22,6 @@ struct produto{
 };
 
 int main(){
-    setlocale(LC_ALL, "Portuguese"); //isso aqui pode mudar a saida de um valor float com . ou ,
     struct produto p; // esse p representa a variavel de produto.
 
     printf("Digite o código do produto: ");
