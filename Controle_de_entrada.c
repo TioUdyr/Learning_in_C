@@ -16,9 +16,6 @@ int main (){
         printf("Voce nao pode entrar");
     }
 
-
-
-
     return 0;
 }
 

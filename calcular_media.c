@@ -23,6 +23,5 @@ int main(){
         printf("Aprovado!");
     }
     
-
     return 0;
 }
